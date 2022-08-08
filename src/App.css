@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+
+
+.appdiv{
+  background-color:darkseagreen;
+  /* {display: flex; }2. display flex to the rescue */
+  /* {flex-direction: row;} */
+  padding: 10px;
+  width:100%; 
+}
+
+
+div.container{  
+  margin-left: 90px;
+  width: 450px;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+img{
+  width: 450px;
+  height: 300px;
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 35.5%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 25px;
+  text-align: center;
+}
+.container:hover .overlay
+ {
+  opacity: 1;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
